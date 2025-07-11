@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import Loader from "@/helpers/Loader";
 
-export default function signup() {
+export default function Signup() {
   const [user, setuser] = React.useState({
     username: "",
     email: "",

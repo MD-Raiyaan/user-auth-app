@@ -7,7 +7,7 @@ import toast from "react-hot-toast"
 import Loader from "@/helpers/Loader";
 
 
-export default function login() {
+export default function Login() {
   const [user, setuser] = React.useState({
     email: "",
     password: "",

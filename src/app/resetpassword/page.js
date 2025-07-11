@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import Loader from "@/helpers/Loader";
 
-export default function resetpassword() {
+export default function Resetpassword() {
   const [password, setpassword] = React.useState("");
   const [loader, setloader] = React.useState(false);
   const [buttondisabled, setbuttondisabled] = React.useState(true);
