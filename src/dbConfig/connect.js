@@ -1,9 +1,8 @@
-
-export default function connect(){
+import mongoose from 'mongoose'
+export default async function connect(){
       try {
-         console.log(process.env.MONGODBURI);
-         mongoose.connect(process.env.MONGODBURI);
-         const connection=mongoose.connection;
+         await mongoose.connect(process.env.MONGODBURI);
+         const connection= mongoose.connection;
          connection.on('save',()=>{ //event listeners in mongodb
             console.log("Mongodb connected successfully !!!");
          })

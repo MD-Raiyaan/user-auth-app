@@ -17,10 +17,14 @@ const userSchema=mongoose.Schema({
         required:[true,"Please provide an password"],
         unique:true
     },
+    isVerified:{
+        type:Boolean,
+        default:false
+    },
     verifytoken:String,
-    verifytokenexpiry:String,
+    verifytokenexpiry:Date,
     forgotpasswordtoken:String,
-    forgotpasswordtokenexpiry:String
+    forgotpasswordtokenexpiry:Date
 });
 
 export const User= mongoose.models.user || mongoose.model('user',userSchema);
