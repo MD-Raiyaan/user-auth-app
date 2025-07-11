@@ -12,12 +12,6 @@ A simple and secure user authentication application built with [YOUR STACK: e.g.
   - [Installation](#installation)  
   - [Running the App](#running-the-app)  
 - [Usage](#usage)  
-- [API Endpoints](#api-endpoints) *(if applicable)*  
-- [Configuration](#configuration)  
-- [Troubleshooting](#troubleshooting)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
 
 ---
 
